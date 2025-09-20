@@ -1,0 +1,23 @@
+# Node modules (if you add npm packages)
+node_modules/
+
+# Build output (if you add a build step)
+dist/
+build/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# Misc
+*.swp
+*.swo
