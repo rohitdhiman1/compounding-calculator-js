@@ -2,6 +2,10 @@
 
 This guide explains how to deploy the compounding calculator as a static site on Cloudflare Pages.
 
+## Live Demo
+
+You can view the deployed calculator here: [https://compounding-calculator-js.pages.dev/](https://compounding-calculator-js.pages.dev/)
+
 ## Prerequisites
 - A Cloudflare account.
 - A GitHub or GitLab repository containing this project.
