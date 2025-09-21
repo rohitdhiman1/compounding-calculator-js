@@ -12,12 +12,30 @@ A simple, modern web-based compounding calculator built with Vue.js and Chart.js
 - Automatic formatting of large numbers with commas for readability
 - Interactive chart showing principal and compounded interest growth
 
+## How to Run Locally
+
+Since this is a static website, you can run it using any simple web server. Here’s how to do it with Python's built-in server:
+
+1.  **Navigate to the `public` directory:**
+    ```bash
+    cd public
+    ```
+
+2.  **Start the web server:**
+    - If you have Python 3:
+      ```bash
+      python -m http.server 8000
+      ```
+    - If you have Python 2:
+      ```bash
+      python -m SimpleHTTPServer 8000
+      ```
+
+3.  **Open your browser** and go to `http://localhost:8000`.
+
 ## How to Deploy on Cloudflare Pages
 
-1. Copy the contents of the `public` folder (especially `index.html`) to your Cloudflare Pages project.
-2. In Cloudflare Pages, set the build output directory to `public` (or the folder containing `index.html`).
-3. Deploy your site. No build step is required—this is a static SPA.
-4. Your calculator will be available at your Cloudflare Pages URL.
+For detailed deployment instructions, please see `README.cloudflare.md`.
 
 ## Example Usage
 
